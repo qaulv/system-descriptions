@@ -7,6 +7,13 @@ The User based moderation is done through the following Smart Contract: `KT1CgsL
 
 The entry-point `moderate` of the contract needs to be called. Only accounts added as **moderators** to the contract can call the entry point.
 
+1. Go to BCD and search for KT1CgsLyNpqFtNw3wdfGasQYZYfgsWSMJfGo
+2. Click the contract address when it comes up
+3. Click interact
+4. Select moderate in the right-hand column
+5. Enter address and state 
+6. Execute
+
 It takes 2 parameters:
 
 * 0: the **tz address** of the account to moderate
